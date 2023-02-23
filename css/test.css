@@ -1,0 +1,22 @@
+.test_question {
+  margin-bottom: 13px;
+  margin-top: 13px;
+}
+label{
+  margin-right: 40px;
+}
+
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  /* position: relative; */
+  background-color: #B9D5D6;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid white;
+  z-index: 0;
+}

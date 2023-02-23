@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.course-catalog-name{
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.course-catalog-image{
+  width: 320px;
+}
+.course-photo{
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 38px;
+}
+.course-name{
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+.course-description{
+  margin-bottom: 10px;
+}
+.cta_link_sign{
+  width: 250px;
+  height: 61px;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 43px;
+  background: transparent;
+  padding: 1%;
+  border: 3px solid #7DA09E;  
+}
+.cta_link_sign:hover{
+  background-color: #7DA09E;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.course-example{
+  display:flex;
+}

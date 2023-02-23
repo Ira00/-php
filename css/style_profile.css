@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  gap: 13px;
+}
+.aboutUser .container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.my_courses {
+  margin-bottom: 13px;
+}
+.cta {
+  text-align: left;
+}
